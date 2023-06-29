@@ -30,11 +30,11 @@
     "linux",
     "windows"
   ],
-  "homepage": "https://github.com/lencx/ChatGPT",
-  "bugs": "https://github.com/lencx/ChatGPT/issues",
+  "homepage": "https://github.com/lencx/MBM ChatBot",
+  "bugs": "https://github.com/lencx/MBM ChatBot/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lencx/ChatGPT"
+    "url": "https://github.com/lencx/MBM ChatBot"
   },
   "dependencies": {
     "@ant-design/icons": "^4.8.0",

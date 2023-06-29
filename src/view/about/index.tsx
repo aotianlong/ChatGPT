@@ -19,7 +19,7 @@ export default function About() {
     <div className="about">
       <Tabs
         items={[
-          { label: 'About ChatGPT', key: 'about', children: <AboutChatGPT /> },
+          { label: 'About MBM ChatBot', key: 'about', children: <AboutMBM ChatBot /> },
           { label: 'Update Log', key: 'log', children: <LogTab content={logContent} /> },
         ]}
       />
@@ -27,27 +27,27 @@ export default function About() {
   );
 }
 
-const AboutChatGPT = () => {
+const AboutMBM ChatBot = () => {
   return (
     <div className="about-tab">
-      <Tag>ChatGPT Desktop Application (Mac, Windows and Linux)</Tag>
+      <Tag>MBM ChatBot Desktop Application (Mac, Windows and Linux)</Tag>
       <p>
         🕒 History versions:{' '}
-        <a href="https://github.com/lencx/ChatGPT/releases" target="_blank">
-          lencx/ChatGPT/releases
+        <a href="https://github.com/lencx/MBM ChatBot/releases" target="_blank">
+          lencx/MBM ChatBot/releases
         </a>
       </p>
       <p>
         It is just a wrapper for the
-        <a href="https://chat.openai.com" target="_blank" title="https://chat.openai.com">
+        <a href="https://chatbot.mbmzone.com" target="_blank" title="https://chatbot.mbmzone.com">
           {' '}
-          OpenAI ChatGPT{' '}
+          OpenAI MBM ChatBot{' '}
         </a>
         website, no other data transfer exists (you can check the{' '}
         <a
-          href="https://github.com/lencx/ChatGPT"
+          href="https://github.com/lencx/MBM ChatBot"
           target="_blank"
-          title="https://github.com/lencx/ChatGPT"
+          title="https://github.com/lencx/MBM ChatBot"
         >
           {' '}
           source code{' '}
@@ -78,8 +78,8 @@ const LogTab = ({ content }: { content: string }) => {
     <div>
       <p>
         Ref:{' '}
-        <a href="https://github.com/lencx/ChatGPT/blob/main/UPDATE_LOG.md" target="_blank">
-          lencx/ChatGPT/UPDATE_LOG.md
+        <a href="https://github.com/lencx/MBM ChatBot/blob/main/UPDATE_LOG.md" target="_blank">
+          lencx/MBM ChatBot/UPDATE_LOG.md
         </a>
       </p>
       <Markdown className="log-tab" children={content} />

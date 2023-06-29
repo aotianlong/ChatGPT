@@ -106,7 +106,7 @@ export default function ChatLayout() {
             </Content>
             <Footer style={{ textAlign: 'center' }}>
               <a href="https://github.com/lencx/chatgpt" target="_blank">
-                ChatGPT Desktop Application
+                MBM ChatBot Desktop Application
               </a>{' '}
               ©2022 Created by lencx
             </Footer>

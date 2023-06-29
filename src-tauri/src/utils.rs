@@ -94,7 +94,7 @@ pub fn clear_conf(app: &tauri::AppHandle) {
   let root = app_root();
   let msg = format!(
     "Path: {}\n
-    Are you sure you want to clear all ChatGPT configurations? Performing this operation data can not be restored, please back up in advance.\n
+    Are you sure you want to clear all MBM ChatBot configurations? Performing this operation data can not be restored, please back up in advance.\n
     Note: The application will exit automatically after the configuration cleanup!",
     root.to_string_lossy()
   );
@@ -142,7 +142,7 @@ pub async fn get_data(
   } else {
     error!("chatgpt_http: {}", body);
     if let Some(v) = app {
-      tauri::api::dialog::message(v.get_window("core").as_ref(), "ChatGPT HTTP", body);
+      tauri::api::dialog::message(v.get_window("core").as_ref(), "MBM ChatBot HTTP", body);
     }
     Ok(None)
   }
@@ -166,8 +166,8 @@ pub fn run_check_update(app: AppHandle<Wry>, silent: bool, has_msg: Option<bool>
         if v {
           tauri::api::dialog::message(
             app.app_handle().get_window("core").as_ref(),
-            "ChatGPT",
-            "Your ChatGPT is up to date",
+            "MBM ChatBot",
+            "Your MBM ChatBot is up to date",
           );
         }
       }

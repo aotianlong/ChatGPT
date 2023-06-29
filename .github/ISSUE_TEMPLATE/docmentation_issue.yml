@@ -6,7 +6,7 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: 'Please make sure to [search for existing issues](https://github.com/lencx/ChatGPT/issues) before creating a new one.'
+      value: 'Please make sure to [search for existing issues](https://github.com/lencx/MBM ChatBot/issues) before creating a new one.'
   - type: textarea
     id: doc-description
     attributes:

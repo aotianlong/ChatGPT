@@ -1,5 +1,5 @@
-# ChatGPT Scripts
+# MBM ChatBot Scripts
 
-> ChatGPT Desktop Application Core Extension Scripts.
+> MBM ChatBot Desktop Application Core Extension Scripts.
 
-[ChatGPT/scripts](https://github.com/lencx/ChatGPT/tree/main/scripts)
+[MBM ChatBot/scripts](https://github.com/lencx/MBM ChatBot/tree/main/scripts)

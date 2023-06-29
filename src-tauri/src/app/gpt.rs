@@ -196,8 +196,8 @@ pub async fn sync_prompts(app: AppHandle, time: u64) -> Option<Vec<PromptRecord>
         fs::write(
           &prompts,
           serde_json::json!({
-            "name": "ChatGPT Prompts",
-            "link": "https://github.com/lencx/ChatGPT"
+            "name": "MBM ChatBot Prompts",
+            "link": "https://github.com/lencx/MBM ChatBot"
           })
           .to_string(),
         )
@@ -216,7 +216,7 @@ pub async fn sync_prompts(app: AppHandle, time: u64) -> Option<Vec<PromptRecord>
       fs::write(
         prompt_cmd,
         serde_json::to_string_pretty(&serde_json::json!({
-          "name": "ChatGPT CMD",
+          "name": "MBM ChatBot CMD",
           "last_updated": time,
           "data": cmd_data,
         }))

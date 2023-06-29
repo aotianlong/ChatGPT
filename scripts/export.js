@@ -1,7 +1,7 @@
 /**
  * @name export.js
  * @version 0.1.2
- * @url https://github.com/lencx/ChatGPT/tree/main/scripts/export.js
+ * @url https://github.com/lencx/MBM ChatBot/tree/main/scripts/export.js
  */
 
 async function exportInit() {
@@ -201,7 +201,7 @@ async function exportInit() {
     for (let i = 0; i < binaryData.length; i++) {
       data.push(binaryData.charCodeAt(i));
     }
-    const name = `ChatGPT_${formatDateTime()}.png`;
+    const name = `MBM ChatBot_${formatDateTime()}.png`;
     await invoke('download_file', { name: name, blob: data });
   }
 
@@ -214,7 +214,7 @@ async function exportInit() {
     pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight, '', 'FAST');
     const data = pdf.__private__.getArrayBuffer(pdf.__private__.buildDocument());
 
-    const name = `ChatGPT_${formatDateTime()}.pdf`;
+    const name = `MBM ChatBot_${formatDateTime()}.pdf`;
     await invoke('download_file', { name: name, blob: Array.from(new Uint8Array(data)) });
   }
 
@@ -228,7 +228,7 @@ async function exportInit() {
         "[class*='react-scroll-to-bottom']>[class*='react-scroll-to-bottom']>div",
       );
 
-      // fix: old chat https://github.com/lencx/ChatGPT/issues/185
+      // fix: old chat https://github.com/lencx/MBM ChatBot/issues/185
       if (!this.thread) {
         this.thread = document.querySelector('main .overflow-y-auto');
       }

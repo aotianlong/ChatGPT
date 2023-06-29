@@ -1,7 +1,7 @@
 /**
  * @name cmd.js
  * @version 0.1.1
- * @url https://github.com/lencx/ChatGPT/tree/main/scripts/cmd.js
+ * @url https://github.com/lencx/MBM ChatBot/tree/main/scripts/cmd.js
  */
 
 function cmdInit() {
@@ -232,7 +232,7 @@ function cmdInit() {
         }
 
         // ------------------ TAB key replaces `{q}` tag content -------------------------------
-        // feat: https://github.com/lencx/ChatGPT/issues/54
+        // feat: https://github.com/lencx/MBM ChatBot/issues/54
         if (event.keyCode === 9 && !window.__CHAT_STATUS__) {
           const strGroup = window.__CHAT_CMD_PROMPT__.match(/\{([^{}]*)\}/) || [];
 

@@ -6,10 +6,10 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: 'Please make sure to [search for existing issues](https://github.com/lencx/ChatGPT/issues) before filing a new one!'
+      value: 'Please make sure to [search for existing issues](https://github.com/lencx/MBM ChatBot/issues) before filing a new one!'
   - type: markdown
     attributes:
-      value: 'Please make sure to build from the source code with the latest version of ChatGPT.'
+      value: 'Please make sure to build from the source code with the latest version of MBM ChatBot.'
   - type: markdown
     attributes:
       value: |

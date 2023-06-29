@@ -6,14 +6,14 @@ cask "chatgpt" do
     "aarch64" => "998d15813194957de140a530605252fdf3f68fafdba1353706fa00d070c7c23d"
   }
   if arch == "arm64" then arch = "aarch64" end
-  url "https://github.com/lencx/ChatGPT/releases/download/v#{version}/ChatGPT_#{version}_macos_#{arch}.dmg"
+  url "https://github.com/lencx/MBM ChatBot/releases/download/v#{version}/MBM ChatBot_#{version}_macos_#{arch}.dmg"
   sha256 sha256s[arch]
 
-  name "ChatGPT"
-  desc "Desktop wrapper for OpenAI ChatGPT"
-  homepage "https://github.com/lencx/ChatGPT#readme"
+  name "MBM ChatBot"
+  desc "Desktop wrapper for OpenAI MBM ChatBot"
+  homepage "https://github.com/lencx/MBM ChatBot#readme"
 
-  app "ChatGPT.app"
+  app "MBM ChatBot.app"
 
   uninstall quit: "com.lencx.chatgpt"
 

@@ -1,7 +1,7 @@
 /**
  * @name markdown.export.js
  * @version 0.1.0
- * @url https://github.com/lencx/ChatGPT/tree/main/scripts/markdown.export.js
+ * @url https://github.com/lencx/MBM ChatBot/tree/main/scripts/markdown.export.js
  */
 
 var ExportMD = (function () {

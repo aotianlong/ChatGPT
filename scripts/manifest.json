@@ -1,8 +1,8 @@
 {
-  "name": "ChatGPT Scripts",
+  "name": "MBM ChatBot Scripts",
   "author": "lencx",
-  "description": "ChatGPT Desktop Application Core Extension Scripts.",
-  "url": "https://github.com/lencx/ChatGPT/tree/main/scripts",
+  "description": "MBM ChatBot Desktop Application Core Extension Scripts.",
+  "url": "https://github.com/lencx/MBM ChatBot/tree/main/scripts",
   "scripts": [
     {
       "name": "chat.js",

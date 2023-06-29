@@ -1,7 +1,7 @@
 /**
  * @name chat.js
  * @version 0.1.1
- * @url https://github.com/lencx/ChatGPT/tree/main/scripts/chat.js
+ * @url https://github.com/lencx/MBM ChatBot/tree/main/scripts/chat.js
  */
 
 function chatInit() {

@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "ChatGPT",
+    "productName": "MBM ChatBot",
     "version": "1.0.0"
   },
   "tauri": {
@@ -66,7 +66,7 @@
         "icons/icon.ico"
       ],
       "identifier": "com.lencx.chatgpt",
-      "longDescription": "ChatGPT Desktop Application",
+      "longDescription": "MBM ChatBot Desktop Application",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -74,7 +74,7 @@
         "providerShortName": null,
         "signingIdentity": null
       },
-      "shortDescription": "ChatGPT",
+      "shortDescription": "MBM ChatBot",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -95,7 +95,7 @@
             "main",
             "tray"
           ],
-          "domain": "chat.openai.com",
+          "domain": "chatbot.mbmzone.com",
           "enableTauriAPI": true
         },
         {
@@ -129,7 +129,7 @@
       "active": true,
       "dialog": false,
       "endpoints": [
-        "https://lencx.github.io/ChatGPT/install.json"
+        "https://lencx.github.io/MBM ChatBot/install.json"
       ],
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEIxMjY4OUI5MTVFNjBEMDUKUldRRkRlWVZ1WWttc1NGWEE0RFNSb0RqdnhsekRJZTkwK2hVLzhBZTZnaHExSEZ1ZEdzWkpXTHkK"
     }

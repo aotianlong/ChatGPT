@@ -28,7 +28,7 @@ async fn main() {
   let mut log = tauri_plugin_log::Builder::default()
     .targets([
       // LogTarget::LogDir,
-      // LOG PATH: ~/.chatgpt/ChatGPT.log
+      // LOG PATH: ~/.chatgpt/MBM ChatBot.log
       LogTarget::Folder(utils::app_root()),
       LogTarget::Stdout,
       LogTarget::Webview,
@@ -130,5 +130,5 @@ async fn main() {
       }
     })
     .run(context)
-    .expect("error while running ChatGPT application");
+    .expect("error while running MBM ChatBot application");
 }

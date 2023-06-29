@@ -11,7 +11,8 @@ export const CHAT_NOTES_JSON = 'chat.notes.json';
 export const CHAT_PROMPTS_CSV = 'chat.prompts.csv';
 export const GITHUB_PROMPTS_CSV_URL =
   'https://raw.githubusercontent.com/f/awesome-chatgpt-prompts/main/prompts.csv';
-export const GITHUB_LOG_URL = 'https://raw.githubusercontent.com/lencx/ChatGPT/main/UPDATE_LOG.md';
+export const GITHUB_LOG_URL =
+  'https://raw.githubusercontent.com/lencx/MBM ChatBot/main/UPDATE_LOG.md';
 
 export const DISABLE_AUTO_COMPLETE = {
   autoCapitalize: 'off',
@@ -55,8 +56,8 @@ export const readJSON = async (path: string, opts: readJSONOpts = {}) => {
         ? '[]'
         : JSON.stringify(
             {
-              name: 'ChatGPT',
-              link: 'https://github.com/lencx/ChatGPT',
+              name: 'MBM ChatBot',
+              link: 'https://github.com/lencx/MBM ChatBot',
               ...defaultVal,
             },
             null,

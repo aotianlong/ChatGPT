@@ -1,15 +1,15 @@
 # UPDATE LOG
 
-**🛑 URGENT NOTICE: A hacker has been found to take advantage of the heat of `lencx/ChatGPT` to plant a Trojan horse after the fork project and rebuild the installer. If you have friends around you who are using this desktop application, please remind them not to download unknown links freely. Now the project will remove other installation ways and only provide this download link https://github.com/lencx/ChatGPT/releases**
+**🛑 URGENT NOTICE: A hacker has been found to take advantage of the heat of `lencx/MBM ChatBot` to plant a Trojan horse after the fork project and rebuild the installer. If you have friends around you who are using this desktop application, please remind them not to download unknown links freely. Now the project will remove other installation ways and only provide this download link https://github.com/lencx/MBM ChatBot/releases**
 
-**🛑 紧急通知：目前发现有黑客利用 `lencx/ChatGPT` 的热度，在 fork 项目后植入木马，重新构建安装程序。如果你身边有朋友正在使用此桌面应用，请提醒 TA 们不要随意下载不明链接。现在项目将删除其他安装途径，仅提供此下载链接 https://github.com/lencx/ChatGPT/releases**
+**🛑 紧急通知：目前发现有黑客利用 `lencx/MBM ChatBot` 的热度，在 fork 项目后植入木马，重新构建安装程序。如果你身边有朋友正在使用此桌面应用，请提醒 TA 们不要随意下载不明链接。现在项目将删除其他安装途径，仅提供此下载链接 https://github.com/lencx/MBM ChatBot/releases**
 
 ---
 
-**It is an unofficial project intended for personal learning and research purposes only. During the time that the ChatGPT desktop application was open-sourced, it received a lot of attention, and I would like to thank everyone for their support. However, as things have developed, there are two issues that seriously affect the project's next development plan:**
+**It is an unofficial project intended for personal learning and research purposes only. During the time that the MBM ChatBot desktop application was open-sourced, it received a lot of attention, and I would like to thank everyone for their support. However, as things have developed, there are two issues that seriously affect the project's next development plan:**
 
 - **Some people have used it for repackaging and selling for profit.**
-- **The name and icon of ChatGPT may be involved in infringement issues.**
+- **The name and icon of MBM ChatBot may be involved in infringement issues.**
 
 **New repository: https://github.com/lencx/nofwl**
 
@@ -33,65 +33,65 @@ Fix:
 Feat:
 
 - Add refresh button
-- Add text-to-speech (`Control Center -> Settings -> General -> Set Speech Language`) (https://github.com/lencx/ChatGPT/issues/534)
-- Automatically focus input field (https://github.com/lencx/ChatGPT/issues/550)
+- Add text-to-speech (`Control Center -> Settings -> General -> Set Speech Language`) (https://github.com/lencx/MBM ChatBot/issues/534)
+- Automatically focus input field (https://github.com/lencx/MBM ChatBot/issues/550)
 
 ## v0.11.1
 
 Fix:
 
-- Export button blinks (https://github.com/lencx/ChatGPT/issues/541)
-- System tray supports sending with Enter key, for text line breaks please use the shortcut key `Shift + Enter` (https://github.com/lencx/ChatGPT/issues/533)
+- Export button blinks (https://github.com/lencx/MBM ChatBot/issues/541)
+- System tray supports sending with Enter key, for text line breaks please use the shortcut key `Shift + Enter` (https://github.com/lencx/MBM ChatBot/issues/533)
 
 ## v0.11.0
 
 Fix:
 
-- User-defined close button behavior (exit or minimize) (`Control Center -> Settings -> Main Window -> Close Exit`). (https://github.com/lencx/ChatGPT/issues/359)
-- Markdown content layout (https://github.com/lencx/ChatGPT/issues/378)
+- User-defined close button behavior (exit or minimize) (`Control Center -> Settings -> Main Window -> Close Exit`). (https://github.com/lencx/MBM ChatBot/issues/359)
+- Markdown content layout (https://github.com/lencx/MBM ChatBot/issues/378)
 
 Feat:
 
-- Set the main window and tray window size (https://github.com/lencx/ChatGPT/issues/405)
+- Set the main window and tray window size (https://github.com/lencx/MBM ChatBot/issues/405)
 - Save window positions and sizes and restore them when the app is reopened (`Control Center -> Settings -> General -> Save Window State`)
-- macOS support for aarch64 installer (https://github.com/lencx/ChatGPT/issues/380)
+- macOS support for aarch64 installer (https://github.com/lencx/MBM ChatBot/issues/380)
 
 ## v0.10.3
 
-> Note: As of now the ChatGPT desktop app has added a lot of exciting features and it continues to improve, as the app grows it has gone far beyond what ChatGPT was intended for. I want to make it the ultimate goal that any website can be easily wrapped to the desktop through user customization. So it needed an international user guide to guide users to use it more professionally. And https://app.nofwl.com is the manual for the app, which will be built into the app (`Menu -> Window -> ChatGPT User's Guide`) so you can access it anytime. It's just starting at the moment, so stay tuned.
+> Note: As of now the MBM ChatBot desktop app has added a lot of exciting features and it continues to improve, as the app grows it has gone far beyond what MBM ChatBot was intended for. I want to make it the ultimate goal that any website can be easily wrapped to the desktop through user customization. So it needed an international user guide to guide users to use it more professionally. And https://app.nofwl.com is the manual for the app, which will be built into the app (`Menu -> Window -> MBM ChatBot User's Guide`) so you can access it anytime. It's just starting at the moment, so stay tuned.
 
 Fix:
 
-- Incompatible configuration data causes program crashes (https://github.com/lencx/ChatGPT/issues/295)
+- Incompatible configuration data causes program crashes (https://github.com/lencx/MBM ChatBot/issues/295)
 
 Feat:
 
 - Silent copy text
-- Markdown export support distinguishes between users and bots (https://github.com/lencx/ChatGPT/issues/233)
+- Markdown export support distinguishes between users and bots (https://github.com/lencx/MBM ChatBot/issues/233)
 
 ## v0.10.2
 
 Fix:
 
-- PNG and PDF buttons do not work (https://github.com/lencx/ChatGPT/issues/274)
-- Change the window size and the Send button is obscured by the Export button (https://github.com/lencx/ChatGPT/issues/286)
-- Change forward and backward shortcuts (https://github.com/lencx/ChatGPT/issues/254)
+- PNG and PDF buttons do not work (https://github.com/lencx/MBM ChatBot/issues/274)
+- Change the window size and the Send button is obscured by the Export button (https://github.com/lencx/MBM ChatBot/issues/286)
+- Change forward and backward shortcuts (https://github.com/lencx/MBM ChatBot/issues/254)
   - MacOS: `Cmd [`, `Cmd ]`
   - Windows and Linux: `Ctrl [`, `Ctrl ]`
 
 Feat:
 
-- Copy a single record to the clipboard (https://github.com/lencx/ChatGPT/issues/191)
+- Copy a single record to the clipboard (https://github.com/lencx/MBM ChatBot/issues/191)
 
 ## v0.10.1
 
 Fix:
 
-- Program exception when `Awesome` data is empty (https://github.com/lencx/ChatGPT/issues/248)
+- Program exception when `Awesome` data is empty (https://github.com/lencx/MBM ChatBot/issues/248)
 
 Feat:
 
-- New shortcut key to change zoom level (30% - 200%), `+` or `-` 10% each time, `0` will be reset to 100% (https://github.com/lencx/ChatGPT/issues/202)
+- New shortcut key to change zoom level (30% - 200%), `+` or `-` 10% each time, `0` will be reset to 100% (https://github.com/lencx/MBM ChatBot/issues/202)
   - Windows: `Ctrl +`, `Ctrl -`, `Ctrl 0`
   - MacOS: `Cmd +`, `Cmd -`, `Cmd 0`
 
@@ -99,12 +99,12 @@ Feat:
 
 Fix:
 
-- After exporting a file in Windows, open an empty file explorer (https://github.com/lencx/ChatGPT/issues/242)
+- After exporting a file in Windows, open an empty file explorer (https://github.com/lencx/MBM ChatBot/issues/242)
 
 Feat:
 
 - Markdown files support editing and live preview
-- Add `Awesome` menu to the `Control Center` (similar to bookmarks, but it's just a start, more possibilities in the future), custom URL support for the home and tray windows (if you're tired of ChatGPT as your home screen).
+- Add `Awesome` menu to the `Control Center` (similar to bookmarks, but it's just a start, more possibilities in the future), custom URL support for the home and tray windows (if you're tired of MBM ChatBot as your home screen).
 
 ## v0.9.2
 
@@ -139,7 +139,7 @@ Feat:
 
 - Theme enhancement (Light, Dark, System)
 - Automatic updates support `silent` settings
-- Pop-up search: select the ChatGPT content with the mouse, the `DALL·E 2` button appears, and click to jump (note: because the search content filled by the script cannot trigger the event directly, you need to enter a space in the input box to make the button clickable).
+- Pop-up search: select the MBM ChatBot content with the mouse, the `DALL·E 2` button appears, and click to jump (note: because the search content filled by the script cannot trigger the event directly, you need to enter a space in the input box to make the button clickable).
 
 Fix:
 
@@ -198,7 +198,7 @@ Feat:
 - Menu added `Sync Prompts`
 - `Control Center` added `Sync Custom`
 - The slash command is triggered by the enter key
-- Under the slash command, use the tab key to modify the contents of the `{q}` tag (only single changes are supported (https://github.com/lencx/ChatGPT/issues/54)
+- Under the slash command, use the tab key to modify the contents of the `{q}` tag (only single changes are supported (https://github.com/lencx/MBM ChatBot/issues/54)
 
 ## v0.6.0
 
@@ -228,16 +228,16 @@ Fix:
 
 Feat:
 
-- Customize the ChatGPT prompts command (https://github.com/lencx/ChatGPT#-announcement)
+- Customize the MBM ChatBot prompts command (https://github.com/lencx/MBM ChatBot#-announcement)
 - Menu enhancement: hide application icons from the Dock (support macOS only)
 
 ## v0.3.0
 
-Fix: Can't open ChatGPT
+Fix: Can't open MBM ChatBot
 
 Feat: Menu enhancement
 
-- The control center of ChatGPT application
+- The control center of MBM ChatBot application
 - Open the configuration file directory
 
 ## v0.2.2
@@ -273,7 +273,7 @@ Feat: Tray window
 Feat:
 
 - Stay on top
-- Export ChatGPT history
+- Export MBM ChatBot history
 
 ## v0.1.5
 

@@ -44,7 +44,7 @@ export const scriptColumns = ({ scriptsMap }: any) => [
     title: 'Remote File',
     width: 200,
     render: (_: string, row: any) => {
-      const uri = `https://raw.githubusercontent.com/lencx/ChatGPT/main/scripts/${row.name}`;
+      const uri = `https://raw.githubusercontent.com/lencx/MBM ChatBot/main/scripts/${row.name}`;
       return <a onClick={() => shell.open(uri)}>{uri}</a>;
     },
   },

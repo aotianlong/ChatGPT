@@ -10,16 +10,16 @@ use crate::utils::{app_root, create_file, exists};
 
 pub const APP_WEBSITE: &str = "https://lencx.github.io/app/";
 pub const APP_SPONSORS: &str = "https://lencx.github.io/app/sponsors";
-pub const ISSUES_URL: &str = "https://github.com/lencx/ChatGPT/issues";
+pub const ISSUES_URL: &str = "https://github.com/lencx/MBM ChatBot/issues";
 pub const NOFWL_APP: &str = "https://github.com/lencx/nofwl";
-pub const UPDATE_LOG_URL: &str = "https://github.com/lencx/ChatGPT/blob/main/UPDATE_LOG.md";
+pub const UPDATE_LOG_URL: &str = "https://github.com/lencx/MBM ChatBot/blob/main/UPDATE_LOG.md";
 // pub const BUY_COFFEE: &str = "https://www.buymeacoffee.com/lencx";
 pub const GITHUB_PROMPTS_CSV_URL: &str =
   "https://raw.githubusercontent.com/f/awesome-chatgpt-prompts/main/prompts.csv";
-pub const SCRIPTS_DIR: &str = "https://raw.githubusercontent.com/lencx/ChatGPT/main/scripts/";
+pub const SCRIPTS_DIR: &str = "https://raw.githubusercontent.com/lencx/MBM ChatBot/main/scripts/";
 
 pub const APP_CONF_PATH: &str = "chat.conf.json";
-pub const CHATGPT_URL: &str = "https://chat.openai.com";
+pub const CHATGPT_URL: &str = "https://chatbot.mbmzone.com";
 pub const UA_MOBILE: &str = "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1";
 
 macro_rules! pub_struct {
@@ -83,8 +83,8 @@ impl AppConf {
       stay_on_top: false,
       main_dashboard: false,
       tray_dashboard: false,
-      main_width: 800.0,
-      main_height: 600.0,
+      main_width: 1080.0,
+      main_height: 800.0,
       tray_width: 360.0,
       tray_height: 540.0,
       main_origin: CHATGPT_URL.into(),

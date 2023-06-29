@@ -18,7 +18,7 @@ pub fn tray_window(handle: &tauri::AppHandle) {
       &app_conf.tray_origin
     };
     let mut tray_win = WindowBuilder::new(&app, "tray", WindowUrl::App(link.into()))
-      .title("ChatGPT")
+      .title("MBM ChatBot")
       .resizable(false)
       .fullscreen(false)
       .inner_size(app_conf.tray_width, app_conf.tray_height)
@@ -29,7 +29,7 @@ pub fn tray_window(handle: &tauri::AppHandle) {
       .initialization_script(&load_script("core.js"))
       .user_agent(&app_conf.ua_tray);
 
-    if app_conf.tray_origin == "https://chat.openai.com" && !app_conf.tray_dashboard {
+    if app_conf.tray_origin == "https://chatbot.mbmzone.com" && !app_conf.tray_dashboard {
       tray_win = tray_win
         .initialization_script(include_str!("../vendors/floating-ui-core.js"))
         .initialization_script(include_str!("../vendors/floating-ui-dom.js"))
@@ -73,7 +73,7 @@ pub fn dalle2_window(
       WindowBuilder::new(
         &app,
         label,
-        WindowUrl::App("https://labs.openai.com".into()),
+        WindowUrl::App("https://chatbot.mbmzone.com".into()),
       )
       .title(title.unwrap_or_else(|| "DALL·E 2".to_string()))
       .resizable(true)
@@ -121,7 +121,7 @@ pub mod cmd {
     dalle2_window(
       &app.app_handle(),
       Some(query),
-      Some("ChatGPT & DALL·E 2".to_string()),
+      Some("MBM ChatBot & DALL·E 2".to_string()),
       None,
     );
   }
