@@ -19,7 +19,7 @@ export default function About() {
     <div className="about">
       <Tabs
         items={[
-          { label: 'About MBM ChatBot', key: 'about', children: <AboutMBM ChatBot /> },
+          { label: 'About MBM ChatBot', key: 'about', children: <AboutChatGPTBot /> },
           { label: 'Update Log', key: 'log', children: <LogTab content={logContent} /> },
         ]}
       />
@@ -27,7 +27,7 @@ export default function About() {
   );
 }
 
-const AboutMBM ChatBot = () => {
+const AboutChatGPTBot = () => {
   return (
     <div className="about-tab">
       <Tag>MBM ChatBot Desktop Application (Mac, Windows and Linux)</Tag>
